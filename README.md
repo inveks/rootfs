@@ -11,3 +11,4 @@ Run `wsl --import ArchLinux <TARGET_PATH> rootfs.tar.gz`
 Launch ArchLinux `wsl -d ArchLinux`
 
 Initialize the keyring `pacman-key --init --populate archlinux`
+ 
