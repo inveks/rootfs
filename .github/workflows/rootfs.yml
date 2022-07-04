@@ -13,9 +13,6 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-    
-      - name: push
-        run: chmod +x ./build.sh
 
       - name: build
         run: |
