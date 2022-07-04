@@ -14,8 +14,10 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
     
-      - name: build
+      - name: push
         run: chmod +x ./build.sh
+
+      - name: build
         run: |
           apt update
           apt install curl -y
