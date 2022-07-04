@@ -15,10 +15,10 @@ jobs:
         uses: actions/checkout@v2
     
       - name: build
+        run: chmod +x ./build.sh
         run: |
           apt update
           apt install curl -y
-          chmod +x ./build.sh
           ./build.sh
 
       - name: release
