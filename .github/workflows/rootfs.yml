@@ -18,6 +18,7 @@ jobs:
         run: |
           apt update
           apt install curl -y
+          chmod +x ./build.sh
           ./build.sh
 
       - name: release
